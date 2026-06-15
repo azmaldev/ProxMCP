@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="proxmcp.png" alt="ProxMCP" width="800">
+<img src="ProxMCP.png" alt="ProxMCP" width="800">
 
 # ProxMCP
 
