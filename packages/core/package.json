@@ -1,0 +1,19 @@
+{
+  "name": "@proxmcp/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "node --import tsx/esm --test src/**/__tests__/*.test.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1",
+    "@modelcontextprotocol/sdk": "^1",
+    "hono": "^4",
+    "zod": "^3"
+  }
+}

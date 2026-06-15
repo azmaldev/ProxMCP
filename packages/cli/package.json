@@ -1,0 +1,22 @@
+{
+  "name": "proxmcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/cli.js",
+  "types": "dist/cli.d.ts",
+  "bin": {
+    "proxmcp": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@proxmcp/core": "*",
+    "@proxmcp/plugin-auth": "*",
+    "@proxmcp/plugin-rate-limit": "*",
+    "@proxmcp/plugin-logger": "*",
+    "@proxmcp/plugin-tool-filter": "*"
+  }
+}

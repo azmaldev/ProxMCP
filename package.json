@@ -1,0 +1,19 @@
+{
+  "name": "proxmcp",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/plugins/*",
+    "packages/cli"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "eslint": "^9",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}
